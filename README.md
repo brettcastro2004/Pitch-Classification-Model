@@ -29,7 +29,9 @@ PCA
 PCA reduces the five primary features to two principal components. A PCA scatter plot is included to show how pitch types overlap in the reduced space. 
 
 Ensemble Model
+
 The ensemble combines ANN and KNN prediction probabilities using a weighted formula. The model improves decisions on borderline predictions where ANN and KNN disagree.
 
 How to Run
+
 Download the dataset provided here and include it in a folder "/data/." Run the data preparation script to create merged_pitch_data.csv. Use the feature engineering sections for analysis and visualizations. Run the normalization steps to create normalized_pitch_data.csv. Open the main Jupyter notebook. Run preprocessing, then train the ANN, KNN, and PCA models. Run the ensemble model for best accuracy.
