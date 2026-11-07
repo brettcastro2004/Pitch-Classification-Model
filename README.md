@@ -18,7 +18,7 @@ Features are graphed in a correlation heatmap, and subsequent relationship clust
 
 KNN Model
 
-A KNN classifier handles tight pitch clusters using distance weighting. This model also ~83% accuracy with K optimized.
+A KNN classifier handles tight pitch clusters using distance weighting. This model also reaches ~83% accuracy with K optimized.
 
 ANN Model
 
